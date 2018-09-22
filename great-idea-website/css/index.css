@@ -66,7 +66,7 @@
 /* Your code starts here! */
 
 body{
-	margin: 0px 380px;
+	margin: 0px 280px;
 	/*text-align: center;*/
 }
 
@@ -87,7 +87,7 @@ body{
 	  display: inline-block;
 	  vertical-align: middle;
 	  line-height: normal;
-	  padding: 0px 50px 0px 0px;
+	  padding: 0px 30px 0px 0px;
 	  color: #d5d2cc;
 	}
 		.nav_buttons {
@@ -137,6 +137,7 @@ body{
 	padding-top: 50px;
 	padding-bottom: 40px;
 	text-align: justify;
+	text-align: center;
 }
 		.features, .about {
 			display: inline-block;
@@ -148,11 +149,16 @@ body{
 			margin-left: 50px;
 		}
 
+		.middle-img {
+			text-align: center;
+			padding: 60px 0px 0px 0px;
+		}
 
 .services_product_vision {
 	margin: 30px 0px 20px 0px;
 	padding: 0px 0px 50px 0px;
 	border-bottom: 1px solid black;
+	text-align: center;
 
 }
 
@@ -160,10 +166,15 @@ body{
 		display: inline-block;
 		width: 250px;
 		margin: 0px 35px 0px 0px;
-	}
+		text-align: left;
+	}	
 
 	.address, .phone, .email {
 		padding: 15px 0px 15px 0px;
+	}
+
+	.contact {
+		padding: 0px 0px 0px 30px;
 	}
 
 	.copyright {
