@@ -3,64 +3,171 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	body {
+		line-height: 1;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
 
-/* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
-}
+	/* Set every element's box-sizing to border-box */
+	* {
+	    box-sizing: border-box;
+	}
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
-}
+	html, body {
+	    height: 100%;
+	    font-family: 'Titillium Web', sans-serif;
+	}
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-}
+	h1, h2, h3, h4, h5 {
+	    font-family: 'Bangers', cursive;
+	    letter-spacing: 1px;
+	    margin-bottom: 15px;
+	}
 
 /* Your code starts here! */
+
+body{
+	margin: 0px 380px;
+	/*text-align: center;*/
+}
+
+#main_nav {
+	display: inline-block;
+}
+#top_body {
+	text-align: justify;
+}
+	#top_body nav {
+		height: 40px;
+	  	line-height: 40px;
+	  	text-align: center;
+	  	padding: 20px 0px 0px 0px;
+	}
+
+	.nav_buttons, .nav_logo {
+	  display: inline-block;
+	  vertical-align: middle;
+	  line-height: normal;
+	  padding: 0px 50px 0px 0px;
+	  color: #d5d2cc;
+	}
+		.nav_buttons {
+			text-decoration: none;
+		}
+
+
+
+.splash {
+	padding: 40px 0px 60px 0px;
+	text-align: center;
+}
+
+	.get_started_left {
+		vertical-align: top;
+		display: inline-block;
+		width: 350px;
+		text-align: center;
+		padding: 100px 0px 0px 0px;
+	}
+	.get_started_title {
+		display: inline-block;	
+		font-size: 80px;
+		margin: 0px;
+		padding: 0px 0px 30px 0px;
+	}
+
+	.get_started_button {
+		width: 180px;
+		height: 35px;
+		text-decoration: none;
+		display: inline-block;
+		border: 1px solid black;
+		color: black;
+		font-weight: bold;
+	}
+		.get_started_button p {
+			line-height: 30px;
+		}
+
+		.starting_img {
+			padding: 0px 0px 0px 50px;
+		}
+
+.features_about {
+	border-top: solid black 1px;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	text-align: justify;
+}
+		.features, .about {
+			display: inline-block;
+			width: 45%;
+			text-align: justify;
+		}
+
+		.about {
+			margin-left: 50px;
+		}
+
+
+.services_product_vision {
+	margin: 30px 0px 20px 0px;
+	padding: 0px 0px 50px 0px;
+	border-bottom: 1px solid black;
+
+}
+
+	.info {
+		display: inline-block;
+		width: 250px;
+		margin: 0px 35px 0px 0px;
+	}
+
+	.address, .phone, .email {
+		padding: 15px 0px 15px 0px;
+	}
+
+	.copyright {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+
